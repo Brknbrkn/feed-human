@@ -1,0 +1,14 @@
+# Blender 3.3.21 MTL File: 'None'
+# www.blender.org
+
+newmtl Material.003
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd 12DC_Battery_color.png
+map_Ns 12DC_Battery_roughness.png
+map_refl 12DC_Battery_metallic.png
+map_Bump -bm 1.000000 12DC_Battery_normal.png
