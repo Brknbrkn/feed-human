@@ -1,32 +1,45 @@
-# feed-human,ekrandaki insanı besleyerek aslında farkında olmadan dünyaya zarar verdiğimiz bir web oyunudur.Genel olarak iklim değişikliğini konu almaktadır.Farkındalık oluşturma amacı bulunduran bir pyton(flask),html,css projesidir.
-
-
-
-# 🌍 Feed Human
-
-**Feed Human** — ekrandaki bir insanı besleyerek aslında farkında olmadan dünyaya nasıl zarar verdiğimizi anlatan, iklim değişikliğine dair farkındalık oluşturmayı amaçlayan bir web oyunudur.  
-Bu proje, **Python (Flask)**, **HTML** ve **CSS** kullanılarak geliştirilmiştir.
+# 🌿 SON-BAHAR  
+### İklim Değişikliğine Karşı Bilinçlendiren 3D Farkındalık Oyunu  
+Python & Ursina ile geliştirilmiştir.
 
 ---
 
-## 🧠 Proje Hakkında
-
-Günümüzde tüketim alışkanlıklarımız doğrudan **iklim değişikliğini tetikleyen en büyük etkenlerden** biri.  
-Bu proje, oyuncuya basit gibi görünen bir görev vererek — yani ekrandaki insanı “besleyerek” — onun arka planında neler olduğunu, dünyaya verdiğimiz **gizli zararları** gösterir.
-
-🎮 Oyunun amacı:  
-- İnsanları besleyerek puan kazanmaya çalışırsınız.  
-- Ancak her besleme eylemi, arka planda doğaya zarar verir.  
-- Oyun ilerledikçe bu zararlar **çevresel yıkım**, **iklim değişikliği**, **kaynak tükenmesi** gibi sonuçlarla görsel ve yazılı olarak yansır.
-
-💡 Sonuç:  
-Oyuncu sonunda “daha fazla beslemenin” aslında **daha fazla zarar** anlamına geldiğini fark eder.
+## 🎮 Proje Hakkında
+**SON-BAHAR**, oyuncunun çevreyi korumak için farklı görevler üstlendiği 3D bir farkındalık oyunudur.  
+Amaç; **iklim değişikliğinin etkilerini azaltmak için çözüm üreten görevleri tamamlamak** ve **çevre bilinci oluşturmak**.  
+Oyun, Python'un 3D oyun motoru olan **Ursina Engine** kullanılarak geliştirilmiştir.
 
 ---
 
-## ⚙️ Kullanılan Teknolojiler
+## 🌎 Oyun Amacı
+Oyuncu; kirlenen bir dünyada küçük ama etkili adımlar atarak çevreyi iyileştirmeye çalışır.  
+Görevlerden bazıları:
+- Fabrikalara **hava filtresi** takmak,
+- **Geri dönüşüm** işlemlerini tamamlamak,
+- **Yeşil enerji kaynakları** (rüzgâr, güneş) kurmak,
+- **Ağaç dikerek ekosistemi dengelemek**,
+- **Atıkları toplamak** ve **doğayı temizlemek**.
 
-- 🐍 **Python (Flask)** – Backend ve sunucu tarafı  
-- 🧱 **HTML5** – Sayfa yapısı ve arayüz  
-- 🎨 **CSS3** – Tasarım ve stil  
-- 🌐 **JavaScript (opsiyonel)** – Etkileşim ve oyun mekaniği (eğer kullanıldıysa)
+---
+
+## 🛠 Kullanılan Teknolojiler
+| Teknoloji | Kullanım Amacı |
+|-----------|----------------|
+| Python    | Oyun mantığı ve kontrol |
+| Ursina Engine | 3D grafikler ve oyun motoru |
+
+---
+
+## 🚀 Kurulum
+Aşağıdaki adımları takip ederek oyunu çalıştırabilirsiniz:
+
+```bash
+# 1. Depoyu klonlayın
+git clone https://github.com/kullaniciadi/son-bahar.git
+cd son-bahar
+
+# 2. Gerekli kütüphaneleri yükleyin
+pip install ursina
+
+# 3. Oyunu çalıştırın
+python main.py
